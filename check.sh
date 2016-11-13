@@ -193,13 +193,16 @@ python ../send-email.py "$onemail" "$piriform $version" "$url
 $md5
 $sha1
 
-https://2292fc14cff26c76cdd11414679cfe77df9b2f57.googledrive.com/host/0B_3uBwg3RcdVa0ptM2E5UEZUVlE/`echo $piriform`.exe.$version.7z 
+`echo $piriform`.exe
 $md5x86
 $sha1x86
 
-https://2292fc14cff26c76cdd11414679cfe77df9b2f57.googledrive.com/host/0B_3uBwg3RcdVa0ptM2E5UEZUVlE/`echo $piriform`64.exe.$version.7z 
+`echo $piriform`64.exe
 $md5x64
 $sha1x64
+
+mirror:
+https://drive.google.com/drive/folders/0B_3uBwg3RcdVa0ptM2E5UEZUVlE?usp=sharing 
 
 $changelog"
 } done
