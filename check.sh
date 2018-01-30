@@ -83,7 +83,7 @@ site=$(echo "https://www.piriform.com/$lowercase/download/standard")
 #set change log url
 changes=$(echo "https://www.piriform.com/$lowercase/version-history")
 #some pattern to detect installer
-searchpattern=$(echo "download.*piriform.*setup.*exe")
+searchpattern=$(echo "download.*com.*setup.*exe")
 
 #download some information about site
 wget -S --spider -o $tmp/output.log "$site"
